@@ -16,7 +16,10 @@
 <body>
     <!--Começo barra inferior-->
     <div class="barra-inferior">
-        <div class="selecione-itens">
+        <div id="FecharPedido" class="finalizar-pedido" onclick="escolherFrango()">
+            Fechar o pedido
+        </div>
+        <div  id = "selecioneItens" class="selecione-itens">
             <div>Selecione os 3 itens</br>para fechar o pedido</div>
         </div>
     </div>
@@ -36,7 +39,7 @@
 
         <div class="horizontal">
             <!--Começo de uma caixinha-->
-            <div class="caixinha">
+            <div id="frango" class="caixinha" onclick="escolherFrango()">
                 <img src="Imagens/frango_yin_yang 1.png">
                 <p>Frango Yin Yang</p>
                 <h2>Um pouco de batata, um pouco de salada</h2>
@@ -45,7 +48,7 @@
             <!--Fim de uma caixinha-->
 
             <!--Começo de uma caixinha-->
-            <div class="caixinha">
+            <div id="frango2" class="caixinha" onclick="escolherFrango2()">
                 <img src="Imagens/frango_yin_yang 1.png">
                 <p>Frango Yin Yang</p>
                 <h2>Um pouco de batata, um pouco de salada</h2>
@@ -53,17 +56,10 @@
             </div>
             <!--Fim de uma caixinha-->
 
-            <!--Começo de uma caixinha-->
-            <div class="caixinha">
-                <img src="Imagens/frango_yin_yang 1.png">
-                <p>Frango Yin Yang</p>
-                <h2>Um pouco de batata, um pouco de salada</h2>
-                <h3> R$ 14,90 </h3>
-            </div>
-            <!--Fim de uma caixinha-->
+            
 
             <!--Começo de uma caixinha-->
-            <div class="caixinha">
+            <div id = "frango3" class="caixinha" onclick="escolherFrango3()">
                 <img src="Imagens/frango_yin_yang 1.png">
                 <p>Frango Yin Yang</p>
                 <h2>Um pouco de batata, um pouco de salada</h2>
@@ -115,29 +111,29 @@
 
         <div class="horizontal">
             <!--Começo de uma caixinha-->
-            <div class="caixinha">
-                <img src="Imagens/frango_yin_yang 1.png">
-                <p>Frango Yin Yang</p>
-                <h2>Um pouco de batata, um pouco de salada</h2>
-                <h3> R$ 14,90 </h3>
+            <div id="coca" class="caixinha" onclick="escolherCoca()">
+                <img src="Imagens/coquinha_gelada 1.png">
+                <p>Coquinha gelada</p>
+                <h2>Lata 350ml</h2>
+                <h3> R$ 4,90 </h3>
             </div>
             <!--Fim de uma caixinha-->
 
             <!--Começo de uma caixinha-->
-            <div class="caixinha">
-                <img src="Imagens/frango_yin_yang 1.png">
-                <p>Frango Yin Yang</p>
-                <h2>Um pouco de batata, um pouco de salada</h2>
-                <h3> R$ 14,90 </h3>
+            <div id="coca2" class="caixinha" onclick="escolherCoca2()">
+                <img src="Imagens/coquinha_gelada 1.png">
+                <p>Coquinha gelada</p>
+                <h2>Lata 350ml</h2>
+                <h3> R$ 4,90 </h3>
             </div>
             <!--Fim de uma caixinha-->
 
             <!--Começo de uma caixinha-->
-            <div class="caixinha">
-                <img src="Imagens/frango_yin_yang 1.png">
-                <p>Frango Yin Yang</p>
-                <h2>Um pouco de batata, um pouco de salada</h2>
-                <h3> R$ 14,90 </h3>
+            <div id="coca3" class="caixinha" onclick="escolherCoca3()">
+                <img src="Imagens/coquinha_gelada 1.png">
+                <p>Coquinha gelada</p>
+                <h2>Lata 350ml</h2>
+                <h3> R$ 4,90 </h3>
             </div>
             <!--Fim de uma caixinha-->
 
@@ -174,29 +170,29 @@
 
         <div class="horizontal">
             <!--Começo de uma caixinha-->
-            <div class="caixinha">
-                <img src="Imagens/frango_yin_yang 1.png">
-                <p>Frango Yin Yang</p>
-                <h2>Um pouco de batata, um pouco de salada</h2>
-                <h3> R$ 14,90 </h3>
+            <div id="pudim" class="caixinha" onclick="escolherPudim()">
+                <img src="Imagens/pudim 1.png">
+                <p>Pudim</p>
+                <h2>Apenas pudim</h2>
+                <h3> R$ 7,90 </h3>
             </div>
             <!--Fim de uma caixinha-->
 
             <!--Começo de uma caixinha-->
-            <div class="caixinha">
-                <img src="Imagens/frango_yin_yang 1.png">
-                <p>Frango Yin Yang</p>
-                <h2>Um pouco de batata, um pouco de salada</h2>
-                <h3> R$ 14,90 </h3>
+            <div id="pudim2" class="caixinha" onclick="escolherPudim2()">
+                <img src="Imagens/pudim 1.png">
+                <p>Pudim</p>
+                <h2>Apenas pudim</h2>
+                <h3> R$ 7,90 </h3>
             </div>
             <!--Fim de uma caixinha-->
 
             <!--Começo de uma caixinha-->
-            <div class="caixinha">
-                <img src="Imagens/frango_yin_yang 1.png">
-                <p>Frango Yin Yang</p>
-                <h2>Um pouco de batata, um pouco de salada</h2>
-                <h3> R$ 14,90 </h3>
+            <div id="pudim3" class="caixinha" onclick="escolherPudim3()">
+                <img src="Imagens/pudim 1.png">
+                <p>Pudim</p>
+                <h2>Apenas pudim</h2>
+                <h3> R$ 7,90 </h3>
             </div>
             <!--Fim de uma caixinha-->
 
@@ -235,7 +231,7 @@
 
     <!--Fim conteudo pagina-->
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>
